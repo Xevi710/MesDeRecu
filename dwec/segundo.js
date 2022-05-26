@@ -8,7 +8,8 @@ window.addEventListener('DOMContentLoaded', () => {
     //document.querySelector("button").addEventListener("click",mensaje);
 
     document.querySelector("button").addEventListener("click",()=>{
-        location.assign("http://www.google.es");
+        
+        setTimeout(()=>{location.assign("http://www.google.es")},5000)
     });
 
     document.querySelector("button:nth-child(2)").addEventListener("click",(evt)=>{
