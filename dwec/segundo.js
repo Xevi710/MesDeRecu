@@ -1,9 +1,16 @@
+/*
 function mensaje(){
     alert("mensaje");
 }
+*/
 window.addEventListener('DOMContentLoaded', () => {
     
-    document.querySelector("button").addEventListener("click",mensaje);
+    //document.querySelector("button").addEventListener("click",mensaje);
+
+    document.querySelector("button").addEventListener("click",()=>{
+        location.assign("http://www.google.es");
+    });
+
     document.querySelector("button:nth-child(2)").addEventListener("click",(evt)=>{
         //alert(evt.type);
         const nombre ="Susana";
