@@ -1,1 +1,4 @@
 DOM es todo el html
+innerText es muy parecido al textContent
+diferencia entre let y var, es que let es local y var es global, sea donde sea que se ponga
+toggle es para poner y quitar la clase.
