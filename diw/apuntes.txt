@@ -1,0 +1,16 @@
+Para definir variables en css se hace tal que así:
+Además, la pseudoclase root es donde se definen las variables.
+:root{
+    --fondo: #afc222;
+}
+
+body{
+    back___: var(--fondo);
+}
+
+div y span no significa nada.
+
+<figure> es el contenedor
+    <img src="" alt=""> alt: en caso de no cargarse la imagen, se escribe una descripción de ella.
+    <figcaption></figcaption> Representa un subtítulo o leyenda asociado al contenido del elemento padre <figure>
+</figure>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            transition: 2s;
+        }
+        a:hover{
+            text-decoration: underline;
+            letter-spacing: 0.1rem;
+            color: white;
+            background-color: blue;
+        }
+        li{
+            list-style-type: none;
+        }
+        li::before{
+            content: "\260E" "-";
+        }
+        figure{
+            width: 30vw;
+            height: 20vh;
+            border: 1px solid salmon;
+            overflow: hidden;
+        }
+        figcaption{
+            text-align: center;
+        }
+        img{
+            filter: blur(1px);
+            transition: all 2s;
+        }
+        img:hover{
+            filter: none;
+            transform: scale(1.1);
+        }
+        div{
+            display: flex;
+        }
+        figure:nth-child(1) img{
+            object-fit: fill;
+        }
+        figure:nth-child(2) img{
+            object-fit: contain;
+        }
+        figure:nth-child(3) img{
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <a href="">Otro sitio</a>
+    <ul>
+        <li>abecedario</li>
+        <li>abecedario</li>
+        <li>abecedario</li>
+        <li>abecedario</li>
+        <li>abecedario</li>
+    </ul>
+    <div>
+        <figure>
+            <img width="200" src="https://i.picsum.photos/id/1079/4496/3000.jpg?hmac=G-dJcpU08vEMqjUz2rb3IxjOG99rcePqW9BF1IsPLf0" alt="descripción exacta de la imagen">
+            <figcaption>Título de la imagen</figcaption>
+        </figure>
+        <figure>
+            <img width="200" src="https://i.picsum.photos/id/1079/4496/3000.jpg?hmac=G-dJcpU08vEMqjUz2rb3IxjOG99rcePqW9BF1IsPLf0" alt="descripción exacta de la imagen">
+            <figcaption>Título de la imagen</figcaption>
+        </figure>
+        <figure>
+            <img width="200" src="https://i.picsum.photos/id/1079/4496/3000.jpg?hmac=G-dJcpU08vEMqjUz2rb3IxjOG99rcePqW9BF1IsPLf0" alt="descripción exacta de la imagen">
+            <figcaption>Título de la imagen</figcaption>
+        </figure>
+        <figure>
+            <img width="200" src="https://i.picsum.photos/id/1079/4496/3000.jpg?hmac=G-dJcpU08vEMqjUz2rb3IxjOG99rcePqW9BF1IsPLf0" alt="descripción exacta de la imagen">
+            <figcaption>Título de la imagen</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
