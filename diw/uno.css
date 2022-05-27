@@ -23,6 +23,7 @@ header > div{
 main{
     display: flex;
     justify-content: center;
+    height: 80vh;
 }
 footer{
     position: fixed;

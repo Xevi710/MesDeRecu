@@ -19,4 +19,4 @@ div y span no significa nada.
 
 Posicionamiento fijos importante:
     - fixed: posicionamiento respecto a la pantalla.
-    - absolute: posicionamiento respecto a su padre.
+    - absolute: posicionamiento respecto al primer ascendiente que esté posicionado.
