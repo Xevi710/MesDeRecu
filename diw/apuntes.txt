@@ -15,4 +15,8 @@ div y span no significa nada.
     <figcaption></figcaption> Representa un subtítulo o leyenda asociado al contenido del elemento padre <figure>
 </figure>
 
+<center> NO EXISTE
 
+Posicionamiento fijos importante:
+    - fixed: posicionamiento respecto a la pantalla.
+    - absolute: posicionamiento respecto a su padre.

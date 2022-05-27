@@ -1,0 +1,36 @@
+@import url("reset.css");
+:root{
+    --bg-claro: #00ff0050;
+    --bg-oscuro: rgba(255,0,0,0.5);
+}
+body{
+    background-color: var(--bg-claro);
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    height: 20%;
+    position: relative;
+}
+header > div{
+    width: 50%;
+    height: 50%;
+    background-color: var(--bg-oscuro);
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--bg-oscuro);
+}
+footer > div{
+    text-align: center;
+}
