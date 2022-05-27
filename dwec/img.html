@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        figure {
+            width: 30vw;
+            height: 20vh;
+            border: 1px solid salmon;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        figure:nth-child(1) img {
+            object-fit: cover;
+        }
+
+        figure:nth-child(2) img {
+            object-fit: contain;
+        }
+
+        figure:nth-child(3) img {
+            object-fit: fill;
+        }
+
+        figure:nth-child(4) img {
+            object-fit: none;
+        }
+
+        figure:nth-child(5) img {
+            object-fit: scale-down;
+        }
+
+        figcaption {
+            z-index: 10;
+            color: aliceblue;
+            background-color: black;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%);
+        }
+
+        figure {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <figure>
+        <img width="100" src="img.jpg" alt="ordenador con taza de café">
+        <figcaption>Cover</figcaption>
+    </figure>
+    <figure>
+        <img width="100" src="img.jpg" alt="ordenador con taza de café">
+        <figcaption>Contain</figcaption>
+    </figure>
+    <figure>
+        <img width="100" src="img.jpg" alt="ordenador con taza de café">
+        <figcaption>Fill</figcaption>
+    </figure>
+    <figure>
+        <img width="100" src="img.jpg" alt="ordenador con taza de café">
+        <figcaption>None</figcaption>
+    </figure>
+    <figure>
+        <img width="100" src="img.jpg" alt="ordenador con taza de café">
+        <figcaption>Scale-down</figcaption>
+    </figure>
+</body>
+
+</html>
