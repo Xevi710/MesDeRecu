@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b60478c98e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        :root {
+            --fondo: #ff6347;
+            --fondoc: #ff634763;
+            --claro: #f5f5f5;
+            --sombra: #00000099;
+            --sombrac: #0000001a;
+            --titles: #f1a211;
+            --ff-sans: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+                "Helvetica Neue", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+                "Segoe UI Symbol";
+            --ff-serif: "Georgia", "Times New Roman", serif;
+            --size: 12px;
+            font-size: var(--size);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        /* html, body {
+        
+        } */
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header,
+        footer {
+            background-color: var(--fondo);
+            height: 10%;
+            text-align: center;
+        }
+
+        main {
+            flex: 1 0 auto;
+            /* flex-grow: 1; flex-shrink: 0;  flex-basis: auto;} */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        h1,
+        h2 {
+            font-family: var(--ff-sans);
+            color: var(--titles);
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        section {
+            min-height: 10vh;
+            width: 100vw;
+            border-radius: 2rem;
+            text-align: center;
+            background-color: var(--claro);
+            box-shadow:
+                0 4px 6px -1px var(--sombrac),
+                0 2px 4px -1px var(--sombra);
+        }
+
+        @media (min-width: 800px) {
+
+            /*a partir de 800px*/
+            main {
+                flex-direction: row;
+                background-color: var(--fondoc);
+
+
+            }
+
+            section {
+                max-width: 20vw;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><i class="fas fa-person"></i> Currículum Vitae</h1>
+    </header>
+    <main>
+        <section>
+            <h2><i class="fas fa-phone"></i> Datos personales</h2>
+        </section>
+        <section>
+            <h2><i class="fas fa-computer"></i> Experiencia</h2>
+        </section>
+        <section>
+            <h2><i class="fas fa-university"></i> Formación</h2>
+        </section>
+        <section>
+            <h2><i class="fas fa-car"></i> Otros datos de interés</h2>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

@@ -20,3 +20,14 @@ div y span no significa nada.
 Posicionamiento fijos importante:
     - fixed: posicionamiento respecto a la pantalla.
     - absolute: posicionamiento respecto al primer ascendiente que esté posicionado.
+
+Para el examen, :root y variables del pseudoelemento :root.
+
+
+
+Archivo expres1.html ------------------>
+No poner label en form es fallo gordo.
+Importante el title y placeholder (Etiquetas de input).
+En el pattern, lo que va entre corchetes son rangos, y entre llaves son el número de lo que sea que se tienen que poner.
+Además, si se quiere poner algo que sea opcional, se pondrá un "?" al terminar los coorchetes
+
