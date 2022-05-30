@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoader",()=>{
+window.addEventListener("DOMContentLoaded",()=>{
     let eles = document.querySelector('#eles').value;
     
     var mipatron = /^[aeiou]{2,5}$/i;
