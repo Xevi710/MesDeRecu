@@ -31,3 +31,6 @@ Importante el title y placeholder (Etiquetas de input).
 En el pattern, lo que va entre corchetes son rangos, y entre llaves son el número de lo que sea que se tienen que poner.
 Además, si se quiere poner algo que sea opcional, se pondrá un "?" al terminar los coorchetes
 
+
+Archivo repaso1.html ------------------>
+La etiqueta span y div no significan nada. Se utilizan para delimitar en líneas de texto o en bloques del cuerpo respectivamente.
