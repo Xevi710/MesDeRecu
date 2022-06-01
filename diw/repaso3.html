@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso 3</title>
+    <style>
+        @import url("reset2.css");
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        header{
+            border: 2px solid salmon;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 20vh;
+        }
+        h1,h2{
+            text-align: center;
+            line-height: 10vh;
+        }
+        main{
+            position: fixed;
+            top: 20vh;
+            left: 0;
+            width: 100vw;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        footer{
+            border: 2px solid salmon;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100vw;
+            height: 10vh;
+            display: flex;
+            justify-content: space-around;
+
+        }
+        table, tr, td{
+            border: 2px solid salmon;
+            border-collapse: collapse;
+
+        }
+        td{
+            padding: 1rem;
+        }
+        tr:nth-child(2n){
+            background-color: chocolate;
+        }
+        footer span{
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi empresa</h1>
+        <h2>La mejor empresa del mundo</h2>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+            <tr>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+            <tr>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+            <tr>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+            <tr>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+        </table>
+        
+    </main>
+    <footer>
+        <span>&copy;Mi empresa - 2022</span>
+        <span>Política de cookies</span>
+        <span>Mapa del sitio</span>
+    </footer>
+</body>
+</html>
