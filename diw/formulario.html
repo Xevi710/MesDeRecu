@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        div{
+            border: 0.1rem solid salmon;
+            width: 60vw;
+            margin: 0 auto;
+        }
+        legend{
+            outline: 1px dotted yellowgreen;
+            outline-offset: 0.2rem;
+        }
+        fieldset{
+
+            border-style: double;
+            border-color: green;
+            border-width: 2px;
+            border-radius: 10%;
+        }
+        button{
+            background-color: aliceblue;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="" id="form">
+            <fieldset>
+                <legend>Datos vehículo</legend>
+                <label for="mat"> Matrícula </label>
+                <input type="text" id="mat"
+                pattern="([0-9]{4}[-]?)[bcdfghjklmnprstvwyz]|(ninguna)" required>
+            </fieldset>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="" id="nombre" required>
+            </fieldset>
+        </form>
+        <button type="submit" form="form">Enviar</button>
+    </div>
+
+    
+
+</body>
+</html>
